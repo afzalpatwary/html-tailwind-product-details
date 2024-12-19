@@ -1,0 +1,13 @@
+body {
+  font-family: "Roboto", serif;
+}
+
+.color-active {
+  border: 2px solid white;
+}
+
+.size-active {
+  border: 2px solid #816BFF;
+  color: #816BFF;
+}
+

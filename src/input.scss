@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.size-btn.size-active .size {
+  color: #816BFF;
+}
+.bg-blue{
+  background-color: #6576FF;
+}
+.clr-btn-wrap{
+  button{
+    &.color-active{
+      background-color: transparent !important;
+      .radio-icon{
+        display: block !important;
+      }
+    }
+  }
+}

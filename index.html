@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details</title>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- google fonts -end -->
+
+  <!-- css -->
+  <link href="dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- css -end -->
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+  <div class="pt-[50px] lg:pt-[120px]">
+    <!-- Product Section -->
+    <div
+      class="max-w-[1350px] mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-[30px] lg:gap-[60px] items-center pb-[50px] lg:pb-[112px]">
+      <!-- Left Side: Product Images -->
+      <div id="product-images" class="flex flex-col items-center">
+        <img id="main-image" src="assets/img/product-img1.png" alt="Product"
+          class="w-full object-cover rounded-lg shadow-lg">
+      </div>
+
+      <!-- Right Side: Product Info -->
+      <div class="space-y-4">
+        <h1 class="text-s28 lg:text-s40 text-dark_blue font-bold mb-[10px] leading-tight capitalize">
+          Classy Modern Smart watch
+        </h1>
+
+        <!-- Rating Options -->
+        <div class="flex items-center mb-4"><span class="flex gap-1 items-center"><img alt="star"
+              src="assets/img/star.svg"><img alt="star" src="assets/img/star.svg"><img alt="star"
+              src="assets/img/star.svg"><img alt="star" src="assets/img/star-hf.svg"><img alt="star"
+              src="assets/img/star-bl.svg"></span><span
+            class="ml-2 text-gray text-s14 leading-snug capitalize font-normal">(2 reviews)</span></div>
+
+        <!-- Prices -->
+        <div class="space-x-2">
+          <span class="text-gray text-s20 font-normal leading-snug line-through mr-2">
+            $99.00
+          </span>
+          <span class="font-bold text-s24 text-[#6576FF]">$79.00</span>
+        </div>
+
+        <!-- Product Intro -->
+        <p class="text-[14px] lg:text-[18px] leading-[24px] lg:leading-[30px] text-gray font-normal mb-[20px]">
+          I must explain to you how all this mistaken idea of denoun cing ple praising pain was born and I will give
+          you
+          a
+          complete account of the system, and expound the actual teaching.
+        </p>
+
+        <!-- Product Type and Model -->
+        <div class="flex gap-[43px] mb-[20px]">
+          <div class="">
+            <span class="text-s14 font-normal text-gray leading-snug block mb-1">Type</span>
+            <span class="text-s16 font-bold text-dark_blue leading-snug block"> Watch </span>
+          </div>
+          <div class="">
+            <span class="text-s14 font-normal text-gray leading-snug block mb-1">Model Number</span>
+            <span class="text-s16 font-bold text-dark_blue leading-snug block"> Forerunner 290XT</span>
+          </div>
+        </div>
+
+        <!-- Band Color Selection -->
+        <div>
+          <h3 class="text-s16 lg:text-[18px] font-bold text-dark_blue leading-snug block">Band Color</h3>
+          <div class="clr-btn-wrap flex gap-2 lg:gap-0 lg:space-x-4 mt-2 flex-wrap items-center">
+            <button data-color="purple" class="w-[16px] h-[16px] rounded-full transition-all border-0 bg-[#816BFF]"
+              data-image="assets/img/product-img1.png">
+              <img class="radio-icon hidden" src="assets/img/radio-purple.svg" alt="icon">
+            </button>
+            <button data-color="cyan" class="w-[16px] h-[16px] rounded-full transition-all border-0 bg-[#1FCEC9]"
+              data-image="assets/img/product-img2.png">
+              <img class="radio-icon hidden" src="assets/img/radio-cyan.svg" alt="icon">
+            </button>
+            <button data-color="blue" class="w-[16px] h-[16px] rounded-full transition-all border-0 bg-[#4B97D3]"
+              data-image="assets/img/product-img3.png">
+              <img class="radio-icon hidden" src="assets/img/radio-blue.svg" alt="icon">
+            </button>
+            <button data-color="black" class="w-[16px] h-[16px] rounded-full transition-all border-0 bg-[#3B4747]"
+              data-image="assets/img/product-img4.png">
+              <img class="radio-icon hidden" src="assets/img/radio-black.svg" alt="icon">
+            </button>
+          </div>
+        </div>
+
+        <!-- Product Size Selection -->
+        <div>
+          <h3 class="text-s16 lg:text-[18px] font-bold text-dark_blue leading-snug block">Wrist Size</h3>
+          <div class="flex gap-3 lg:gap-0 lg:space-x-4 mt-2 flex-wrap">
+            <button class="size-btn px-4 py-2 border rounded text-sm text-nowrap" data-price="99">
+              <span class="size font-bold text-s14 text-dark_blue">S</span>
+              <span class="ml-2 text-s12 text-gray">$99</span>
+            </button>
+            <button class="size-btn px-4 py-2 border rounded text-sm text-nowrap" data-price="109">
+              <span class="size font-bold text-s14 text-dark_blue">M</span>
+              <span class="ml-2 text-s12 text-gray">$109</span>
+            </button>
+            <button class="size-btn px-4 py-2 border rounded text-sm text-nowrap" data-price="119">
+              <span class="size font-bold text-s14 text-dark_blue">L</span>
+              <span class="ml-2 text-s12 text-gray">$119</span>
+            </button>
+            <button class="size-btn px-4 py-2 border rounded text-sm text-nowrap" data-price="129">
+              <span class="size font-bold text-s14 text-dark_blue">XL</span>
+              <span class="ml-2 text-s12 text-gray">$129</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Quantity and Add to Cart -->
+        <div class="flex items-center space-x-4">
+          <div class="flex items-center border rounded-[4px]">
+            <button id="decrement" class="w-[35px] flex justify-center py-2">
+              <img src="assets/img/minus.svg" alt="icon">
+            </button>
+            <span id="quantity"
+              class="border-l border-r w-[60px] h-[36px] text-center flex items-center justify-center px-4 py-2">
+              0
+            </span>
+            <button id="increment" class="w-[35px] flex justify-center py-2">
+              <img src="assets/img/plus.svg" alt="icon">
+            </button>
+          </div>
+          <button id="add-to-cart"
+            class="px-[18px] py-[8px] bg-blue text-[13px] font-bold text-white rounded h-[36px]">Add to Cart</button>
+          <button id="wishlist" class="">
+            <img src="assets/img/wishlsit.svg" alt="icon">
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center max-w-[1350px] mx-auto px-4 pb-[20px]">
+      <!-- Checkout Button -->
+      <button id="checkout"
+        class="px-[24px] py-[11px] text-center bg-yellow text-dark_blue rounded-[20px] font-bold flex gap-[10px] shadow-lg">
+        Checkout <span id="cart-quantity"
+          class="bg-white w-[19px] h-[20px] rounded-[5px] text-center inline-block text-s12 text-dark_blue leading-[20px]">0</span>
+      </button>
+      <!-- Checkout Button -end -->
+    </div>
+    <!-- Product Section -end -->
+
+    <!-- Cart Popup -->
+    <div id="cart-popup" class="hidden fixed inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center">
+      <div
+        class="bg-white p-[20px] lg:p-[44px] rounded-[20px] shadow-lg w-3/4 max-w-[651px] min-h-[480px] overscroll-behavior overflow-x-auto">
+        <h2 class="text-[22px] text-dark_blue font-bold">Your Cart</h2>
+        <table class="w-full border-collapse text-left text-sm">
+          <thead>
+            <tr>
+              <th class="border-b text-s14 font-normal text-gray py-[16px] pr-[40px] lg:pr-[0] text-left">Item</th>
+              <th class="border-b text-s14 font-normal text-gray py-[16px] pr-[40px] lg:pr-[0] text-left">Color</th>
+              <th class="border-b text-s14 font-normal text-gray py-[16px] pr-[40px] lg:pr-[0] text-left">Size</th>
+              <th class="border-b text-s14 font-normal text-gray py-[16px] pr-[40px] lg:pr-[0] text-left">Qnt</th>
+              <th class="border-b text-s14 font-normal text-gray py-[16px] pr-[40px] lg:pr-[0] text-right">Price</th>
+            </tr>
+          </thead>
+          <tbody id="cart-items">
+            <!-- Items will be dynamically added here -->
+          </tbody>
+        </table>
+        <div class="mt-4 hidden">
+          <p>Total Quantity: <span id="total-quantity">0</span></p>
+          <p>Total Price: $<span id="total-price">0.00</span></p>
+        </div>
+        <div class="flex justify-end mt-4 gap-[24px] items-center">
+          <button id="continue-shopping"
+            class="px-[15px] lg:px-[18px] py-[8px] border rounded text-dark_blue font-bold text-[10px] lg:text-[13px]">
+            Continue Shopping
+          </button>
+          <button id="final-checkout"
+            class="px-[15px] lg:px-[18px] py-[8px] bg-blue text-white font-bold rounded text-[10px] lg:text-[13px]">
+            Checkout
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Cart Popup -end -->
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const mainImage = document.getElementById('main-image');
+      const colorButtons = document.querySelectorAll('[data-image]');
+      const sizeButtons = document.querySelectorAll('.size-btn');
+      const incrementBtn = document.getElementById('increment');
+      const decrementBtn = document.getElementById('decrement');
+      const quantityEl = document.getElementById('quantity');
+      const addToCartBtn = document.getElementById('add-to-cart');
+      const checkoutBtn = document.getElementById('checkout');
+      const cartPopup = document.getElementById('cart-popup');
+      const cartItems = document.getElementById('cart-items');
+      const totalQuantityEl = document.getElementById('total-quantity');
+      const totalPriceEl = document.getElementById('total-price');
+      const cartQuantityEl = document.getElementById('cart-quantity');
+      const continueShoppingBtn = document.getElementById('continue-shopping');
+
+      let quantity = 1;
+      let cart = [];
+      let selectedSizePrice = 99; // Default size price
+
+      // Color selection
+      colorButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          mainImage.src = button.getAttribute('data-image');
+          colorButtons.forEach(btn => btn.classList.remove('color-active'));
+          button.classList.add('color-active');
+        });
+      });
+
+      // Size selection
+      sizeButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          sizeButtons.forEach(btn => btn.classList.remove('size-active'));
+          button.classList.add('size-active');
+          selectedSizePrice = parseInt(button.getAttribute('data-price'));
+        });
+      });
+
+      // Increment quantity
+      incrementBtn.addEventListener('click', () => {
+        quantity++;
+        quantityEl.textContent = quantity;
+      });
+
+      // Decrement quantity
+      decrementBtn.addEventListener('click', () => {
+        if (quantity > 1) {
+          quantity--;
+          quantityEl.textContent = quantity;
+        }
+      });
+
+      // Add to Cart
+      addToCartBtn.addEventListener('click', () => {
+        const selectedColor = document.querySelector('.color-active')?.getAttribute('data-color') || 'Default';
+        const selectedSize = document.querySelector('.size-active .size')?.textContent || 'Default';
+        const productImage = mainImage.src; // Get the current main image source
+
+        const newItem = {
+          title: 'Classy Modern Smart Watch', // Change this to dynamically fetch product title if needed
+          color: selectedColor,
+          size: selectedSize,
+          quantity,
+          price: selectedSizePrice * quantity,
+          image: productImage, // Include the product image
+        };
+
+        cart.push(newItem);
+        updateCart();
+      });
+
+      // Checkout Button Click
+      checkoutBtn.addEventListener('click', () => {
+        cartPopup.classList.remove('hidden');
+      });
+
+      // Continue Shopping
+      continueShoppingBtn.addEventListener('click', () => {
+        cartPopup.classList.add('hidden');
+      });
+
+      // Update Cart Popup
+      function updateCart() {
+        cartItems.innerHTML = ''; // Clear current items
+        let totalQuantity = 0;
+        let totalPrice = 0;
+
+        // Generate table rows for cart items
+        cart.forEach(item => {
+          totalQuantity += item.quantity;
+          totalPrice += item.price;
+
+          const cartRow = `
+      <tr>
+        <td class="border-b py-[16px] pr-[40px] lg:pr-[0] flex gap-[8px] items-center text-dark_blue text-s14 font-normal capitalize text-nowrap">
+          <img src="${item.image}" alt="${item.title}" class="w-10 h-10 rounded">
+          ${item.title}
+        </td>
+        <td class="border-b py-[16px] pr-[40px] lg:pr-[0] text-dark_blue text-s14 font-normal capitalize text-nowrap">${item.color}</td>
+        <td class="border-b py-[16px] pr-[40px] lg:pr-[0] text-dark_blue text-s14 font-bold capitalize text-nowrap">${item.size}</td>
+        <td class="border-b py-[16px] pr-[40px] lg:pr-[0] text-dark_blue text-s14 font-bold capitalize text-nowrap">${item.quantity}</td>
+        <td class="border-b py-[16px] pr-[40px] lg:pr-[0] text-dark_blue text-s14 font-bold capitalize text-nowrap text-right">$${item.price.toFixed(2)}</td>
+      </tr>
+    `;
+          cartItems.insertAdjacentHTML('beforeend', cartRow);
+        });
+
+        // Add total row with three columns
+        const totalRow = `
+    <tr class="font-bold">
+      <td colspan="3" class="text-dark_blue font-bold text-s16 py-[16px]">Total</td>
+      <td class="text-dark_blue font-bold text-[14px] py-[16px]">${totalQuantity}</td>
+      <td class="text-dark_blue font-bold text-s16 lg:text-[18px] py-[16px] lg:text-right">$${totalPrice.toFixed(2)}</td>
+    </tr>
+  `;
+        cartItems.insertAdjacentHTML('beforeend', totalRow);
+
+        // Update total quantity and price in other parts of the UI
+        cartQuantityEl.textContent = totalQuantity;
+        totalQuantityEl.textContent = totalQuantity;
+        totalPriceEl.textContent = totalPrice.toFixed(2);
+      }
+
+    });
+
+  </script>
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
