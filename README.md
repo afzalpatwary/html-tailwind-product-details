@@ -39,7 +39,8 @@
 
 ## HOW TO USE IN YOUR PROJECT
 
-[Clone this repo]()&nbsp;
+[Clone this repo HTML versions](https://github.com/afzalpatwary/html-tailwind-product-details.git)&nbsp;
+[Clone this repo React versions](https://github.com/afzalpatwary/react-product-details.git)&nbsp;
 
 **Open the files in your IDE/Code Editor and, Open the terminal and run** <br>
 `npm install`
@@ -66,7 +67,8 @@ Get in touch [![linkedin](https://www.linkedin.com/in/afzal-patwary/)]
 
 ## Live Preview  
 "Explore the live versions of the project in both HTML and React here:"
-[Live Preview Link HTML Version](#https://afzalpatwary.github.io/html-tailwind-product-details)
+[Live Preview Link HTML Version](https://afzalpatwary.github.io/html-tailwind-product-details);
+[Live Preview Link React Version](https://react-product-details.vercel.app)
 
 ## CONCLUSION
 
