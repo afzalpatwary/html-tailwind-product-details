@@ -1,4 +1,4 @@
-# TAILWINDCSS HTML and React Assignment Submission
+# TAILWIND CSS HTML and React Assignment Submission
 
 ## TABLE OF CONTENT
 
