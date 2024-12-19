@@ -66,7 +66,7 @@ Get in touch [![linkedin](https://www.linkedin.com/in/afzal-patwary/)]
 
 ## Live Preview  
 "Explore the live versions of the project in both HTML and React here:"
-[Live Preview Link](#)
+[Live Preview Link HTML Version](#https://afzalpatwary.github.io/html-tailwind-product-details)
 
 ## CONCLUSION
 
