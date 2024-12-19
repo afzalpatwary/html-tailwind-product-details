@@ -62,7 +62,7 @@
 
 If you want to contact me, you can reach me through below handles.
 
-Get in touch [![linkedin](https://www.linkedin.com/in/afzal-patwary/)]
+Get in touch [Linkedin](https://www.linkedin.com/in/afzal-patwary/)
 
 
 ## Live Preview  
